@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List a Space - Workspace Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="spaces.html">Spaces</a></li>
+      <li><a href="list-space.html">List a Space</a></li>
+    </ul>
+  </nav>
+  <div class="search-icon">
+    <img src="search.png" alt="Search" style="height: auto; width: 20px;">
+  </div>
+  <button class="signup-btn">Sign Up</button>
+</header>
+
+<section>
+  <div class="additional-text">
+    <h2>List Your Space</h2>
+    <form id="space-listing-form">
+      <label for="space-name">Space Name:</label>
+      <input type="text" id="space-name" name="space-name" required>
+      
+      <label for="space-type">Space Type:</label>
+      <select id="space-type" name="space-type">
+        <option value="cafe">Cafe</option>
+        <option value="coworking">Co-working</option>
+        <option value="hub">Hub</option>
+      </select>
+      
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+      
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" required></textarea>
+      
+      <label for="amenities">Amenities:</label>
+      <input type="text" id="amenities" name="amenities">
+      
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" required>
+      
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="spaces.html">Spaces</a></li>
+    <li><a href="list-space.html">List a Space</a></li>
+  </ul>
+  <p>P.O. Box 000-000, Nairobi, Kenya</p>
+  <p>+2547010101010</p>
+  <div class="social-icons">
+    <a href="#"><img src="instagram.png" alt="Instagram"></a>
+    <a href="#"><img src="facebook.jpg" alt="Facebook"></a>
+    <a href="#"><img src="twitter.webp" alt="Twitter"></a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

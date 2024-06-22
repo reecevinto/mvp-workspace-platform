@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Cozy Cafe",
+      "description": "A quiet place with great coffee and free Wi-Fi.",
+      "image": "cozy-cafe.jpg"
+    },
+    {
+      "name": "Modern Co-working Space",
+      "description": "A professional co-working space with all amenities.",
+      "image": "modern-coworking.jpg"
+    }
+    
+  ]
+  
